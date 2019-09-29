@@ -1,0 +1,16 @@
+apiVersion: "v1"
+kind: "BuildConfig"
+metadata:
+  name: "node-agent"
+spec:
+  runPolicy: "Serial"
+  source:
+    git:
+      uri: "https://gitlab.com/dustni-myHub/agentconfig.git"
+  strategy:
+    dockerStrategy:
+      dockerfilePath: node/Dockerfile
+  output:
+    to:
+      kind: "ImageStreamTag"
+      name: "node-agent:latest"
