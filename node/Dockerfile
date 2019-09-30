@@ -1,1 +1,1 @@
-FROM node
+FROM openshift/jenkins-agent-nodejs-8-centos7
