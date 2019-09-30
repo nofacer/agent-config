@@ -1,0 +1,5 @@
+These are related files for building Jenkins slave agent in Openshift.
+
+Now supported kinds are:
+* gradle
+* node
