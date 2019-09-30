@@ -1,7 +1,7 @@
 apiVersion: "v1"
 kind: "BuildConfig"
 metadata:
-  name: "gradle-agent-jenkins"
+  name: "gradle-agent"
 spec:
   runPolicy: "Serial"
   source:
